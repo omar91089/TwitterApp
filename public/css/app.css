@@ -1,0 +1,39 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow: auto;
+}
+
+.navbar-fixed-left {
+  width: 350px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  overflow: auto;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 320px;
+  font-size: 20px;
+}
+
+.container {
+  width: calc(100% - 350px);
+}
+
+.wrapper {
+  margin-left: 200px;
+}
+
+.tweet-box {
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 20px;
+	border-style: solid;
+	border-width: thin;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#trend-header {
+    color: #fff;
+}

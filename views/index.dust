@@ -1,0 +1,15 @@
+{>"master" /}
+<div class="navbar navbar-inverse navbar-fixed-left">
+      <a id="trend-header" class="navbar-brand">Top {trendLimit} topics trending in {trendPlace}</a><br />
+      <ul class="nav navbar-nav">
+      {#trends}
+        <li><a href="#" onclick="App.handleClick(this)">{name}</a></li>
+      {/trends}
+      </ul>
+</div>
+<div class="wrapper">
+    <div class="container">
+      <h3 id="tweets-title">Select any trend from the left panel to stream tweets here</h3>
+      <div id="tweets-content" />
+    </div>
+</div>

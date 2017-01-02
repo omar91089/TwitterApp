@@ -1,0 +1,25 @@
+{
+  "name": "twitterapp",
+  "description": "Small app to get twitter feeds",
+  "main": "app.js",
+  "authors": [
+    "omar91089"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "app"
+  ],
+  "homepage": "http://localhost:3000",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/javascripts",
+    "test",
+    "tests"
+   ],
+   "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+   }
+}
